@@ -269,8 +269,15 @@ void onEvent(ev_t ev) {
     case EV_LINK_ALIVE:
       Serial.println(F("EV_LINK_ALIVE"));
       break;
+    case EV_TXSTART:
+      Serial.println(F("EV_TXSTART"));
+      break;
+    case EV_JOIN_TXCOMPLETE:
+      Serial.println(F("EV_JOIN_TXCOMPLETE"));
+      break;
     default:
       Serial.println(F("Unknown event"));
+      Serial.println(ev);
       break;
   }
 }
