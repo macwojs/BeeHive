@@ -1,9 +1,18 @@
-# Hive smart tracker - Inteligentny sensor do ula
+# Hive smart tracker - Inteligentny sensor dla ula
 
 Initialy based on https://github.com/Christophe45/ESP32-Lorawan
 
 ## Wstęp
 Obecnie projekt jest w fazie rozwojowej. Obecnie rozwijana jest wersja oparta na komunikacji przez LoraWAN (BeeHiveNodeLora) i bramkę sieci komunikującą się z serwerami TTN.
+
+## Środowisko
+Kompilacja projektu testowana była w środowisku Adruino IDE 2.x. Również dla tego środowiska podane sa nazwy bibliotek. 
+
+## Układ
+Cały projekt oparty jest na układzie ESP32.
+
+W celu dodania odpowidniego układu do Arduino IDE należy dodać repozytorium modułów (https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json), a następnie wybrać moduł `ESP32 Dev Module`.
+
 
 ## Biblioteki
 - HX711 -  HX711 Arduino Library by Bogdan w wersji 0.7.2
