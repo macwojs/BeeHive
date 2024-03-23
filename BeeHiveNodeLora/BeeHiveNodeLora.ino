@@ -12,6 +12,7 @@
 #include <Adafruit_BME280.h>
 #include <HX711.h>
 #include <WiFi.h>
+#include <driver/adc.h>
 
 
 /*******************************************************************************
